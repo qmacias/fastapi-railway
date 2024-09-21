@@ -1,2 +1,2 @@
-hypercorn==0.17.3
 fastapi[all]==0.111.0
+uvicorn[standard]==0.30.1

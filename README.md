@@ -12,4 +12,4 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) web applicatio
 
 **NOTE**: Run locally using uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/P9tQne?referralCode=Rhlgc5)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/s8TfD0?referralCode=Rhlgc5)

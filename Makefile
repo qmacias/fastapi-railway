@@ -1,13 +1,13 @@
-PIP = pip
-PYTHON = python
+PIP := pip
+PYTHON := python
 
 .PHONY: build
-build: init install
+build: venv deps
 
-.PHONY: init
-init:
+.PHONY: venv
+venv:
 	$(PYTHON) -m venv .venv
 
-.PHONY: install
-install:
+.PHONY: deps
+deps:
 	$(PIP) install --no-cache-dir -r requirements.txt

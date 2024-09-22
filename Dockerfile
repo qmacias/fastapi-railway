@@ -8,7 +8,7 @@ RUN apt-get update \
 
 COPY requirements.txt Makefile ./
 
-RUN make install
+RUN make deps
 
 COPY . .
 

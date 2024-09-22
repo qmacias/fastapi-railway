@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"context": "Test context", "timestamp": str(datetime.now())}
+    return {"app": "Test app", "time": str(datetime.now())}
 
 
 @app.get('/status-check')

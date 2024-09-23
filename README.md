@@ -1,14 +1,14 @@
 ### Getting Started
 
-Railway project with Docker builder. We're using:
+Basic Railway Example with FastAPI. We're using:
 
 Python v3.11.0, FastAPI (all) v0.111.0 and Uvicorn (standard) v0.30.1
 
 ---
 
-### Deploy FastAPI Example
+### App Deployment
 
-This example starts up a [FastAPI](https://fastapi.tiangolo.com/) web application server.
+This project starts up a [FastAPI](https://fastapi.tiangolo.com/) server using Docker builder.
 
 **NOTE**: Run locally using uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
